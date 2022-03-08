@@ -36,7 +36,7 @@ const Home = () => {
                 <div className="flex">
                     <label id="logo" className="ml-2 font-bold text-3xl text-blue-600">𝘽𝙚𝙨𝙣𝙞𝙠.</label>
                 </div>
-                <div className="flex mx-auto mt-3 whitespace-nowrap  overflow-x-scroll scrollbar-hide">
+                <div className="flex mx-auto mt-3 whitespace-nowrap OV scrollbar-hide">
                     <ul>
                         <a href="/" className="a text-blue-600 ml-8">Home</a>
                         <a href="/" className="a text-blue-600 ml-8">Offers</a>
