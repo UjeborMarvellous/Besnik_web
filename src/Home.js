@@ -34,7 +34,7 @@ const Home = () => {
         <div className="all bg-slate-50	">
             <nav className="stage1 flex ml-8 pb-2 mt-16 bg-white rounded-b-2xl" id="nav">
                 <div className="flex">
-                    <label id="logo" className="ml-2 font-bold text-3xl text-blue-600">𝘽𝙚𝙨𝙣𝙞𝙠.</label>
+                    <label id="logo" className="ml-2 font-bold text-3xl text-blue-600">Besnik.</label>
                 </div>
                 <div className="flex mx-auto mt-3 whitespace-nowrap OV scrollbar-hide">
                     <ul>
@@ -47,7 +47,7 @@ const Home = () => {
                 </div>
                 <div className="flex mr-4 whitespace-nowrap">
                     <a href="/" className="text-blue-700 mt-3 mr-4">Sign in</a>
-                    <button className="bg-blue-600 p-2 mt-1 text-white rounded-xl">Get started</button>
+                    <button className="bg-blue-600 p-2 mt-1 text-white rounded-xl" id="logos">Get started</button>
                 </div>
             </nav>
             <div className="MT mt-24">
@@ -58,10 +58,9 @@ const Home = () => {
                             <p className="mt-8 bg-yellow-500 text-3xl p-4 Zt"><FcManager/></p>
                             <p className="text-blue-800 font-medium text-xl mt-8 ml-4">We blend insights and strategy to create digital <br />products for forward-thinking organisations.</p>
                         </div>
-                        <div className="flex mt-6">
-                            <button className="px-8 py-4 text-white bg-blue-700 rounded-xl ml-8">Learn more</button>
-                            <a href="/" className="text-6xl text-white pl-1 bg-red-400 rounded-full ml-4"><AiFillPlayCircle/></a>
-                            <p className="mt-4 mx-3 fomt-medium text-blue-800">How it works</p>
+                        <div className="mt-6 BTN">
+                            <button className="whitespace-nowrap px-4 py-2 text-white bg-blue-700 rounded-xl">Learn more</button>
+                                <p className="flex mt-4 mx-3 font-medium text-blue-800"><a href="/" className="text-6xl text-white pl-1 bg-red-400 rounded-full"><AiFillPlayCircle/></a><span className="mt-4 ml-4">How it works</span></p>
                         </div>
                     </div>
                     <div className="img mb-8 t-0">
@@ -87,21 +86,21 @@ const Home = () => {
             <div className="stage2 mt-24 mb-16">
                 <div className="text-center">
                     <p className="text-blue-700 font-medium text-2xl">OUR SERVICES</p>
-                    <p className="my-4 text-blue-900 font-bold text-5xl">We're digital marketing pro</p>
+                    <p className="my-4 text-blue-900 font-bold text-5xl AG">We're digital marketing pro</p>
                     <p className="text-gray-700 font-medium text-xl">No matter what you're looking for,we can create a <br /> custom solution for your business.</p>
                 </div>
                 <div className="gride mt-16 justify-center">
-                    <div className="social media bg-white px-4 py-8 ml-8 rounded-2xl A">
+                    <div className="social media bg-white px-4 py-8 rounded-2xl A">
                         <p className="text-white text-3xl rounded-2xl p-4 bg-blue-600 w-16"><BsMegaphoneFill/></p>
                         <p className="text-blue-800 font-bold text-xl my-4">Social Media</p>
                         <p className="text-blue-600">Build brand awareness on the <br /> top social media networks.</p>
                     </div>
-                    <div className="Email marketing bg-white px-4 py-8 ml-8 rounded-2xl A">
+                    <div className="Email marketing bg-white px-4 py-8 rounded-2xl A">
                         <p className="text-white text-3xl rounded-2xl p-4 bg-red-400 w-16"><IoIosMail/></p>
                         <p className="text-blue-800 font-bold text-xl my-4">Email Marketing</p>
                         <p className="text-blue-600">Nurture valuable leads into <br />customers, and turn one-time.</p>
                     </div>
-                    <div className="Content Marketing bg-white px-4 py-8 ml-8 rounded-2xl A">
+                    <div className="Content Marketing bg-white px-4 py-8 rounded-2xl A">
                         <p className="text-white text-3xl rounded-2xl p-4 bg-yellow-400 w-16"><RiContactsBookFill/></p>
                         <p className="text-blue-800 font-bold text-xl my-4">Content Marketing</p>
                         <p className="text-blue-600">Get Professionally-written <br /> content that attracts qualification</p>
@@ -119,12 +118,12 @@ const Home = () => {
                             <p className="text-blue-900 font-bold text-sm">^ 11.5%</p>
                         </div>
                     </div>
-                    <div className="sec ml-16">
+                    <div className="sec">
                         <p className="text-blue-600 mb-2 text-sm font-bold">ABOUT US</p>
                         <p className="text-blue-900 font-bold text-3xl mb-4">We start with discovery <br />call to understand</p>
                         <p className="text-blue-900 font-medium text-sm mb-4">we present you a proposal and discuss nitty-gritty like <br />workflows, communication protocols apart from <br /> engagement models,pricing,billing and invoicing.</p>
                         <p className="text-blue-900 font-medium text-sm">Backed by an experience of nearly two <br /> decades in digital marketing</p>
-                        <button className="bg-blue-700 text-white px-8 py-3 rounded-lg text-sm mt-8">Learn more</button>
+                        <button className="bg-blue-700 text-white px-8 py-3 rounded-lg text-sm mt-8 block mx-auto">Learn more</button>
                     </div>
                 </div>
                 <div className="stage4 my-16">
@@ -282,7 +281,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="stage9 py-8 bg-blue-300 mx-8 rounded-2xl">
-                    <p className="text-center my-8 text-blue-900 font-bold text-5xl">Sign up for new Besnik content, <br />update,surveys & offers.</p>
+                    <p className="text-center my-8 text-blue-900 font-bold text-5xl KS ">Sign up for new Besnik content, <br />update,surveys & offers.</p>
                     <form className="flex">
                         <input type="text" placeholder="Enter Your Email Here" className="border-none w-2/5 p-4 content-center rounded-tl-2xl rounded-bl-2xl"/>
                         <button className="bg-blue-700 block w-34 rounded-tr-2xl rounded-br-2xl">Subscribe</button>
@@ -292,7 +291,7 @@ const Home = () => {
                     <div className="">
                         <div className=" pt-12 bg pb-4" id="flex">
                             <div className="first ml-8 sec">
-                                <h1 className="text-blue-900 text-5xl font-bold mb-8">𝘽𝙚𝙨𝙣𝙞𝙠.</h1>
+                                <h1 className="text-blue-900 text-5xl font-bold mb-8">Besnik.</h1>
                                 <p className="ml-4 font-medium text-blue-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br /> Assumenda harum quis recusandae saepe,<br /> quas placeat blanditiis sit expedita tenetur nulla?Lorem ipsum <br /> dolor sit amet consectetur, adipisicing elit. Molestiae, excepturi.</p>
                             </div>
                             <div className="sec">
@@ -319,7 +318,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="icons text-4xl pb-4 ">
-                            <div className="ml-40">
+                            <div className="ml-40 AS">
                                     <h3>Social Media</h3>
                                 <div className="flex">
                                     <p className="ml-4 text-blue-700"><BsFacebook/></p>
