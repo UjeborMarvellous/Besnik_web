@@ -76,7 +76,7 @@ const Home = () => {
                             <div className="p-1 rounded mb-2 w-8 bg-gray-300"></div>
                             <div className="p-1 rounded mb-2 w-40 bg-blue-700"></div>
                         </div>
-                        <div className="red bg-red-400 w-48 mt-12 relative rounded-2xl mr-2/5">
+                        <div className="red hover:bg-red-600 bg-red-500 w-48 mt-12 relative rounded-2xl mr-2/5">
                             <p className="text-white ml-8 py-8 font-medium text-2xl">2M+ <br /> <span className="text-lg">Trusted Users</span></p>
                             <p className="text-white ml-8 py-8 font-medium text-2xl">95% <br /> <span className="text-lg">Return Customers</span></p>
                         </div>
